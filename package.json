@@ -1,0 +1,31 @@
+{
+  "name": "user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanka97/ds-as-2-backend.git"
+  },
+  "author": "Lanka De Alwis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanka97/ds-as-2-backend/issues"
+  },
+  "homepage": "https://github.com/lanka97/ds-as-2-backend#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4",
+    "morgan": "^1.9.1"
+  }
+}
